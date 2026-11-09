@@ -4,23 +4,17 @@ This repository contains my solutions to the TypeScript assignment and two blog 
 
 ## Folder Structure
 
-
-assignment-one
-├── src
-│   └── solutions.ts     
-├── dist
-│   └── solutions.js     
-├── [alias-interface.md]    
-├── [hierarchy .md]   
-├── package.json
-├── tsconfig.json
+```
+├── solutions.ts
+├── alias-interface.md
+├── hierarchy.md
 └── README.md
 ```
 
 ## Blogs
 
- -about typeSript Type hiererchy 
- -type aliases and interface 
+1. [type vs interface in TypeScript](./alias-interface.md)
+2. [TypeScript Type Hierarchy: any, unknown and never](./hierarchy.md)
 
 ## Technologies Used
 
@@ -32,8 +26,8 @@ assignment-one
 
 1. Clone the repository:
    ```bash
-   git clone <your-repo-link>
-   cd <your-repo-name>
+   git clone https://github.com/Israt28jahan/assignment-one.git
+   cd assignment-one
    ```
 2. Install dependencies:
    ```bash
@@ -41,7 +35,7 @@ assignment-one
    ```
 3. Run the solutions directly:
    ```bash
-   npx tsx src/solutions.ts
+   npx tsx solutions.ts
    ```
 4. Or compile to JavaScript and run:
    ```bash
